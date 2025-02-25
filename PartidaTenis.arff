@@ -1,0 +1,27 @@
+% Sol = 0/ Nublado = 1/ Chuva = 2
+% Quente = 2/ Morno = 1/ Frio = 0
+% Alta = 1/ Normal = 0
+% Forte = 1/ Fraco = 0
+@RELATION PartidasTenis  
+@ATTRIBUTE Tempo integer
+@ATTRIBUTE Temperatura integer
+@ATTRIBUTE Umidade integer
+@ATTRIBUTE Vento integer
+@ATTRIBUTE partida {Sim,Nao}
+
+@DATA
+
+0,2,1,0,Nao
+0,2,1,1,Nao
+1,2,1,0,Sim
+2,1,1,0,Sim
+2,0,0,0,Sim
+2,0,0,1,Nao
+1,0,0,1,Sim
+0,1,1,0,Nao
+0,0,0,0,Sim
+2,1,0,0,Sim
+0,1,0,1,Sim
+1,1,1,1,Sim
+1,2,0,0,Sim
+2,1,1,1,Nao
